@@ -8591,7 +8591,7 @@ input.clr-color {font-family:Quicksand;}
 
 
  
-       .changecolor { display:none; width:100%; height:100%; background:rgba(0,0,000,1.0); margin: 0 auto; top:0; left: 0;     position:fixed; z-index:0;       margin-top: -3px; opacity:50%;
+       .changecolor { display:none; width:100%; height:100%; background:rgba(0,0,000,1.0); margin: 0 auto; top:0; left: 0;     position:fixed; z-index:12;       margin-top: -3px; opacity:50%;
     pointer-events:all;  -webkit-filter: saturate(1.2);
     filter: saturate(1.2);padding-bottom: 15px;
       }
@@ -8613,17 +8613,17 @@ input.clr-color {font-family:Quicksand;}
            
       
       
-            .changecolor2 { display:none; width:100%; height:100%; background:rgba(0,0,0,1.0); margin: 0 auto; top:0; left: 0;     position:fixed; z-index:-900;   
+            .changecolor2 { display:none; width:100%; height:100%; background:rgba(0,0,0,1.0); margin: 0 auto; top:0; left: 0;     position:fixed; z-index:12;   
             }
             
-            .changecolor3 { display:none; width:100%; height:100%;   background: url(https://i.imgur.com/RcZQu7j.jpeg) ; margin: 0 auto; top:0; left: 0;     position:fixed; z-index:-90000;   background-size:cover;
+            .changecolor3 { display:none; width:100%; height:100%;   background: url(https://i.imgur.com/RcZQu7j.jpeg) ; margin: 0 auto; top:0; left: 0;     position:fixed; z-index:12;   background-size:cover;
      
     pointer-events:none;  -webkit-filter: saturate(1.2);
     filter: saturate(1.2);
       }
       
       
-              .changecolor4 { display:none; width:100%; height:100%;   margin: 0 auto; top:0; left: 0;     position:fixed; z-index:-90000;   background-size:cover;
+              .changecolor4 { display:none; width:100%; height:100%;   margin: 0 auto; top:0; left: 0;     position:fixed; z-index: 12; background-size:cover;
      backdrop-filter: blur(20px);     -webkit-backdrop-filter: blur(20px);
     pointer-events:none;  -webkit-filter: saturate(1.2);
     filter: saturate(1.2);
