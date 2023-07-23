@@ -7616,7 +7616,7 @@ background-image: url(https://i.imgur.com/0SLd2EH.png);
    
     -webkit-animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
 	        animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
-    z-index: -100;
+   z-index: 9;
 }
             
     	.toggle4 { 
