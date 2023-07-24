@@ -46,6 +46,8 @@
         <meta name="text:GifScaleTransform" content=""/>
         <meta name="text:GifleftPositionPercentage" content=""/>
         <meta name="text:GifMarginTop" content=""/>
+          <meta name="text:Logo2MarginLeft" content=""/>
+           <meta name="text:Logo2MarginTop" content=""/>
         <meta name="text:MainText" content=""/>
         <meta name="text:YourMainURL" content=""/>
         <meta name="text:Your1SearchTag" content=""/>\
@@ -61,6 +63,7 @@
         <meta name="image:SearchWallpaper" content="">
         <meta name="image:Wallpaperoverlay" content="">
         <meta name="image:Logo" content="">
+          <meta name="image:Logo2" content="">
         <meta name="image:StatusBackground" content="">
         <meta name="if:ShowYouTubeEffect" content=""/>
         <meta name="if:DesktopPostBlur" content=""/>
@@ -123,6 +126,7 @@
         <meta name="color:SidebarGradientColor1" content="">
         <meta name="color:SidebarGradientColor2" content="">
         <meta name="if:Show Search Box" content=""> 
+         <meta name="if:Logo2" content="">
         <meta name="if:Show Title" content="1">
         <meta name="if:ShowDescription" content="">
         <meta name="if:ShowGreeting" content="">
@@ -5591,7 +5595,7 @@ margin-left:18px;
         }   
         
         
-        .logointernal {	background: url('{image:logointernal}'); width:300px; height:300px; position:fixed; z-index:9999; border-radius:1500px; background-size: 300px; background-repeat:no-repeat; opacity:40%; background-size:100% 100%; }
+        .logointernal {	background: url('{image:logointernal}'); width:300px; height:300px; position:fixed; z-index:9999; border-radius:1500px; background-size: 300px; background-repeat:no-repeat; opacity:100%; background-size:100% 100%; }
         
         
        
@@ -6471,24 +6475,25 @@ animation:fadeIn 7s;
 
 @media screen and (min-width:1245px) { .divx {display: block;
     width: 462px;
-    heighT: 462px;
-    margin-top: -5px;
+    heighT: 462px;   {block:IfLogo2}background-image: url('{image:Logo2}');{/block:IfLogo2};opacity:0%;
+    margin-top: -5px;background-image:;
     z-index: 99999;
     margin-left: -20px;
     position: relative;
-   
+       background-position-y: center;
+    background-position-x: center;
     margin-top: -81px;
-    margin-left: -79px;
+    margin-left: -79px;     background-size: cover;
     border-radius: 250px;}
     
     .divx:hover {display: block;
     width: 462px;
-    heighT: 462px;
-    margin-top: -5px;
+    heighT: 462px; {block:IfLogo2}background-image: url('{image:Logo2}');{/block:IfLogo2};
+    margin-top: -5px; opacity:100%;
     z-index: 99999;
-    margin-left: -20px;
-    position: relative;
-   background:rgba(255,255,255,0.1);
+    margin-left: -20px;background-position-x: {text:Logo2MarginLeft};
+    position: relative; background-position-y:{text:Logo2MarginTop};
+  
     margin-top: -81px;
     margin-left: -79px;
     border-radius: 250px;}
@@ -11779,7 +11784,7 @@ and it is currently  <div class="datetime">
     <img class="bottom" src="https://i.imgur.com/n5w6LdS.png">
    
     <audio id="audio">
-      <source src="https://dl.sndup.net/b93q/bunny%20girl%20senpai%20lofi.mp3">
+      <source src="https://dl.sndup.net/r2dh/protovision.mp3">
     </audio>
   </div>
 
